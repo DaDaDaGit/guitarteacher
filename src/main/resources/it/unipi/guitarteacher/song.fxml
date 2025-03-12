@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.guitarteacher.controllers.SongController">
+   <children>
+      <Pane minHeight="720.0" minWidth="1280.0" prefHeight="720.0" prefWidth="1280.0">
+         <children>
+            <Label fx:id="titolo" alignment="CENTER" layoutX="390.0" layoutY="32.0" prefWidth="500.0" text="TITOLO" textAlignment="CENTER">
+               <font>
+                  <Font name="Broadway" size="30.0" />
+               </font>
+            </Label>
+            <Button fx:id="buttonCanzoni" layoutX="496.0" layoutY="616.0" onAction="#switchToLearnSongs" text="Vai alle canzoni" />
+            <Button fx:id="buttonHomepage" layoutX="677.0" layoutY="616.0" onAction="#switchToHomepage" text="Torna alla home" />
+            <Label layoutX="985.0" layoutY="173.0" prefHeight="63.0" prefWidth="199.0" text=" PROSSIMO ACCORDO:" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Broadway" size="24.0" />
+               </font>
+            </Label>
+            <TableView fx:id="noteTable" layoutX="92.0" layoutY="173.0" prefHeight="380.0" prefWidth="250.0">
+               <columns>
+                  <TableColumn fx:id="nomeCol" prefWidth="50.0" resizable="false" text="Note" />
+                  <TableColumn fx:id="imgCol" prefWidth="200.0" resizable="false" text="Accordi" />
+               </columns>
+            </TableView>
+            <Label layoutX="118.0" layoutY="129.0" text="LISTA ACCORDI">
+               <font>
+                  <Font name="Broadway" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="prossimoAccordoText" layoutX="1060.0" layoutY="248.0" text="SOL" textAlignment="CENTER">
+               <font>
+                  <Font name="Broadway" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="prossimoAccordo" fitHeight="250.0" fitWidth="250.0" layoutX="959.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="btnPlay" alignment="CENTER" layoutX="531.0" layoutY="541.0" mnemonicParsing="false" onAction="#playSong" prefHeight="63.0" prefWidth="98.0" />
+            <Button fx:id="btnRestart" alignment="CENTER" layoutX="640.0" layoutY="541.0" mnemonicParsing="false" onAction="#restartSong" prefHeight="63.0" prefWidth="98.0" />
+            <ImageView fx:id="daSuonare" fitHeight="350.0" fitWidth="350.0" layoutX="460.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="daSuonareText" layoutX="610.0" layoutY="140.0" text="SOL" textAlignment="CENTER">
+               <font>
+                  <Font name="Broadway" size="24.0" />
+               </font>
+            </Label>
+            <Pane fx:id="backPane" layoutX="424.0" layoutY="129.0" prefHeight="404.0" prefWidth="425.0" />
+         </children>
+      </Pane>
+   </children>
+</VBox>

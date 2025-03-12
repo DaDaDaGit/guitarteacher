@@ -1,0 +1,70 @@
+2025-03-12 09:00:26.072 [Thread-3] DEBUG it.unipi.guitarteacher.connection.HttpConnector - 
+Sending GET request to URL : http://localhost:8080/note/all?
+parameters : 
+Response Code : 200
+
+2025-03-12 09:00:55.853 [Thread-3417] DEBUG it.unipi.guitarteacher.connection.HttpConnector - 
+Sending GET request to URL : http://localhost:8080/canzoni/all?
+parameters : 
+Response Code : 200
+
+2025-03-12 09:00:58.227 [JavaFX Application Thread] DEBUG it.unipi.guitarteacher.connection.HttpConnector - 
+Sending GET request to URL : http://localhost:8080/canzoni/canzone?idcanzone=1
+parameters : 
+Response Code : 200
+
+2025-03-12 09:00:58.255 [JavaFX Application Thread] DEBUG it.unipi.guitarteacher.connection.HttpConnector - 
+Sending GET request to URL : http://localhost:8080/esecuzione/canzone?idcanzone=1
+parameters : 
+Response Code : 200
+
+2025-03-12 09:00:58.283 [JavaFX Application Thread] DEBUG it.unipi.guitarteacher.connection.HttpConnector - 
+Sending GET request to URL : http://localhost:8080/note/nota?nome=RE
+parameters : 
+Response Code : 200
+
+2025-03-12 09:00:58.299 [JavaFX Application Thread] DEBUG it.unipi.guitarteacher.connection.HttpConnector - 
+Sending GET request to URL : http://localhost:8080/note/nota?nome=LA
+parameters : 
+Response Code : 200
+
+2025-03-12 09:00:58.314 [JavaFX Application Thread] DEBUG it.unipi.guitarteacher.connection.HttpConnector - 
+Sending GET request to URL : http://localhost:8080/note/nota?nome=SOL
+parameters : 
+Response Code : 200
+
+2025-03-12 09:01:08.621 [Thread-5597] DEBUG it.unipi.guitarteacher.connection.HttpConnector - 
+Sending GET request to URL : http://localhost:8080/canzoni/all?
+parameters : 
+Response Code : 200
+
+2025-03-12 09:01:12.425 [JavaFX Application Thread] DEBUG it.unipi.guitarteacher.connection.HttpConnector - 
+Sending GET request to URL : http://localhost:8080/canzoni/canzone?idcanzone=2
+parameters : 
+Response Code : 200
+
+2025-03-12 09:01:12.444 [JavaFX Application Thread] DEBUG it.unipi.guitarteacher.connection.HttpConnector - 
+Sending GET request to URL : http://localhost:8080/esecuzione/canzone?idcanzone=2
+parameters : 
+Response Code : 200
+
+2025-03-12 09:01:12.457 [JavaFX Application Thread] DEBUG it.unipi.guitarteacher.connection.HttpConnector - 
+Sending GET request to URL : http://localhost:8080/note/nota?nome=DO
+parameters : 
+Response Code : 200
+
+2025-03-12 09:01:12.467 [JavaFX Application Thread] DEBUG it.unipi.guitarteacher.connection.HttpConnector - 
+Sending GET request to URL : http://localhost:8080/note/nota?nome=FA
+parameters : 
+Response Code : 200
+
+2025-03-12 09:01:12.480 [JavaFX Application Thread] DEBUG it.unipi.guitarteacher.connection.HttpConnector - 
+Sending GET request to URL : http://localhost:8080/note/nota?nome=SOL
+parameters : 
+Response Code : 200
+
+2025-03-12 09:01:26.730 [Thread-8236] DEBUG it.unipi.guitarteacher.connection.HttpConnector - 
+Sending GET request to URL : http://localhost:8080/canzoni/all?
+parameters : 
+Response Code : 200
+

@@ -1,0 +1,28 @@
+[
+    {
+        "idcanzone":"1",
+        "titolo":"Esempio 1",
+        "artista":"Dario Paroli",
+        "durata":"00:10"
+    },
+    {
+        "idcanzone":"2",
+        "titolo":"Esempio 2",
+        "artista":"Dario Paroli",
+        "durata":"00:20"
+    },
+    {
+        "idcanzone":"3",
+        "titolo":"Eliminami 1",
+        "artista":"Pario Daroli",
+        "durata":"00:10"
+    },
+    {
+        "idcanzone":"4",
+        "titolo":"Eliminami 2",
+        "artista":"Pario Daroli",
+        "durata":"00:10"
+    }
+]
+    
+
